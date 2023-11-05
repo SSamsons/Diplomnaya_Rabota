@@ -1,3 +1,5 @@
+https://ci.appveyor.com/api/projects/status/6a0eln3m9yk2t59a?svg=true
+
 # Дипломный проект по профессии "Тестировщик" 
 
 ## Документация
