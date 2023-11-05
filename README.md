@@ -31,7 +31,7 @@
 4. Создать отчёт Allure`.\gradlew allureServe`
 5. Закрыть отчёт в терминале 3: `CTRL + C` -> `y` -> `Enter`
 6. Остановить приложение в терминале 2: `CTRL + C`
-7. Остановить контейнеры в терминале 3:`docker-compose down`
+7. Остановить контейнеры:`docker-compose down`
 
 ### Подключение SUT к PostgreSQL:
 1. В терминале 2 запустить приложение: `java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar`
@@ -40,4 +40,4 @@
 4. Создать отчёт Allure и открыть в браузере `.\gradlew allureServe`
 5. Закрыть отчёт в терминале 3: `CTRL + C` -> `y` -> `Enter`
 6. Остановить приложение в терминале 2: `CTRL + C`
-7. Остановить контейнеры в терминале 3:`docker-compose down`
+7. Остановить контейнеры:`docker-compose down`
