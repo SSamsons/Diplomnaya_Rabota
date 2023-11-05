@@ -1,4 +1,4 @@
-https://ci.appveyor.com/api/projects/status/6a0eln3m9yk2t59a?svg=true
+[![Build status](https://ci.appveyor.com/api/projects/status/6a0eln3m9yk2t59a?svg=true)](https://ci.appveyor.com/project/SSamsons/diplomnaya-rabota)
 
 # Дипломный проект по профессии "Тестировщик" 
 
