@@ -1,23 +1,28 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/6a0eln3m9yk2t59a?svg=true)](https://ci.appveyor.com/project/SSamsons/diplomnaya-rabota)
-
 # Дипломный проект по профессии "Тестировщик" 
 
 ## Документация
 - [Текст задания](https://github.com/netology-code/qa-diploma)
 - [План автоматизации](https://github.com/SSamsons/Diplomnaya_Rabota/blob/man/Documets/Plan.md)
+- [Отчет тестирования](https://github.com/SSamsons/Diplomnaya_Rabota/blob/man/Documets/Report.md)
+- [Отчет автоматизации](https://github.com/SSamsons/Diplomnaya_Rabota/blob/man/Documets/Summary.md)
 
-## Требуемое ПО 
-1. Chrome Версия 116.0.5845.111 (64 бит)
+### Требуемое ПО 
+1. Яндекс Браузер (23.9.3.931 (64-bit)) / Chrome Версия 119.0.6045.105 (64 бит)
 2. IntelliJ IDEA 2022.3.2 (Community Edition)
 3. Docker Desktop 4.22.0 (117440)
 4. DBeaver 23.1.1.202306251800
 
-## Инструкция по запуску автотестов и получения SUT:
-1. Клонировать проект: (https://github.com/SSamsons/Diplomnaya_Rabota/tree/man)
-2. Открыть проект в IntelliJ IDEA
-3. Запустить Docker Desktop 
-4. Выполнить в терминале команду: `docker-compose up --build` в терминале IntelliJ IDEA  
+## Начало работы
 
+### Клонирование проекта
+1. [Перейти](https://github.com/SSamsons/Diplomnaya_Rabota/tree/man) в репозиторий с проектом
+2. Нажать на зеленую кнопку `<> Code`
+3. Клонировать проект, сохранив его на свое устройство удобным для Вас способом
+
+## Запуск автотестов и получение SUT:
+1. Открыть проект в IntelliJ IDEA
+2. Запустить Docker Desktop 
+3. В терминале IntelliJ IDEA выполнить команду: `docker-compose up --build` 
 
 ### Подключение SUT к MySQL:
 1. В терминале 2 запустить приложение: ` java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar `
